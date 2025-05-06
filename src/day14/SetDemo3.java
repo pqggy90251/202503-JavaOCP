@@ -32,7 +32,7 @@ public class SetDemo3 {
 			System.out.println(task);
 		}
 		
-		
+		//123
 		//請找出含有"午休"
 		Optional<String> optTask=dailyTasks.stream().filter(task->task.contains("午休")).findFirst();
 		if(optTask.isPresent()) {
